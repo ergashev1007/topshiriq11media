@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+    line-height: 3em;
+}
+input{
+    background: none;
+    /* font-size: 35px; */
+    border: none;
+    border-bottom: 1px solid rgb(177, 108, 108);
+    outline: none;
+    color: black;
+}
+textarea{
+    font-size:large;
+    resize: none;
+    width: 18%;
+    border: none;
+    border-bottom: 1px solid rgb(177, 108, 108);
+}
+button{
+    padding: 5px 10px;
+    background: none;
+    color: black;
+    border-radius: 30px;
+}
+button:active{
+    background:white;
+}
+input:focus{
+    background:white;
+}
+input:hover{
+    border: 10px solid rgb(151, 129, 129);   
+}
+
+
+
+
+
+
+
+
+
+
+
+@media all and (max-width: 500px){
+    body{
+        background-color: rgb(84, 202, 202);
+        height: 100%;
+        width: 100%;
+    }
+    h2{
+        font-size: 35px;
+    }
+    form action{
+        font-size: 20px;
+        padding: 20px;
+        margin: 10px;
+    }
+    textarea{
+        background-color:aqua;
+        font-size:20px;
+        height: 100%;
+        width: 50%;
+    }
+    button{
+        border-color: rgb(0, 128, 85);
+       height: 50%;
+       width: 50%;
+    }
+}
